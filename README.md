@@ -55,6 +55,40 @@ GitHub Copilot can help you code by offering autocomplete-style suggestions. You
    - Scroll down and click the **Create repository** button at the bottom of the form.
 4. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
 
+## Featured Projects
+
+### 🚀 Kubespray Multi-Node Kubernetes Deployment
+**Objective:** Build a production-style multi-node Kubernetes cluster with repeatable Infrastructure as Code workflows.
+
+- **Tech stack:** Kubespray, Ansible, Kubernetes, Ubuntu, Docker/containerd
+- **Key challenge solved:** Automated idempotent provisioning and cluster bootstrap across heterogeneous nodes while reducing manual configuration drift.
+- **Concrete outcome:** Delivered a stable, reproducible multi-node cluster setup flow that can be re-run safely for environment rebuilds and upgrades.
+- **Repository/demo:** [Kubespray Kubernetes Deployment](https://github.com/your-username/kubespray-multinode-k8s)
+
+### 🔐 WiFi Security / MITM Simulation Lab
+**Objective:** Simulate real-world WiFi attack paths in a controlled lab to validate detection and hardening strategies.
+
+- **Tech stack:** Kali Linux, aircrack-ng suite, Wireshark, hostapd, tcpdump
+- **Key challenge solved:** Reproduced MITM scenarios end-to-end (capture, relay, inspection) without impacting non-lab traffic.
+- **Concrete outcome:** Produced a repeatable security lab workflow and mitigation checklist for WPA/WPA2 network hardening and monitoring.
+- **Repository/demo:** [WiFi Security MITM Lab](https://github.com/your-username/wifi-mitm-security-lab)
+
+### 🤖 n8n Automation Agents
+**Objective:** Design low-code automation agents to reduce repetitive operational and reporting tasks.
+
+- **Tech stack:** n8n, Webhooks, REST APIs, JavaScript function nodes, PostgreSQL/Google Sheets integrations
+- **Key challenge solved:** Orchestrated multi-step, event-driven workflows with retries, branching, and alerting across multiple external tools.
+- **Concrete outcome:** Implemented reusable automation pipelines that reduced manual handoffs and improved process reliability.
+- **Repository/demo:** [n8n Automation Agents](https://github.com/your-username/n8n-automation-agents)
+
+### 🎬 AI Short-Film Pipeline
+**Objective:** Create an AI-assisted pipeline from script ideation to scene generation and final short-film assembly.
+
+- **Tech stack:** Python, generative AI APIs, FFmpeg, prompt orchestration, audio/video editing tools
+- **Key challenge solved:** Standardized prompt-to-scene generation and post-processing into a single pipeline with consistent output quality.
+- **Concrete outcome:** Produced end-to-end short-form video artifacts faster by combining automated generation and structured editing stages.
+- **Repository/demo:** [AI Short-Film Pipeline](https://github.com/your-username/ai-short-film-pipeline)
+
 <footer>
 
 <!--
