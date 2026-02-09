@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <style>
+      .title { font: 700 28px 'Segoe UI', Arial, sans-serif; fill: #0f172a; }
+      .label { font: 600 16px 'Segoe UI', Arial, sans-serif; fill: #0f172a; }
+      .text { font: 14px 'Segoe UI', Arial, sans-serif; fill: #1f2937; }
+      .box { fill: #e2e8f0; stroke: #334155; stroke-width: 2; rx: 12; }
+      .accent { fill: #bae6fd; stroke: #0369a1; stroke-width: 2; rx: 12; }
+      .node { fill: #dcfce7; stroke: #166534; stroke-width: 2; rx: 10; }
+      .svc { fill: #fef3c7; stroke: #92400e; stroke-width: 2; rx: 10; }
+      .arrow { stroke: #0f172a; stroke-width: 2.5; marker-end: url(#arrow); fill: none; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#0f172a" />
+    </marker>
+  </defs>
+
+  <text x="600" y="45" text-anchor="middle" class="title">High-Availability Kubernetes Architecture (Kubespray)</text>
+
+  <rect x="40" y="90" width="1120" height="560" class="box"/>
+  <text x="70" y="120" class="label">Cluster Network</text>
+
+  <rect x="90" y="160" width="250" height="120" class="accent"/>
+  <text x="215" y="190" text-anchor="middle" class="label">Users / Clients</text>
+  <text x="215" y="220" text-anchor="middle" class="text">Web / API Consumers</text>
+  <text x="215" y="245" text-anchor="middle" class="text">External Traffic</text>
+
+  <rect x="430" y="160" width="330" height="120" class="accent"/>
+  <text x="595" y="190" text-anchor="middle" class="label">HAProxy + NGINX</text>
+  <text x="595" y="220" text-anchor="middle" class="text">Load Balancing + Ingress</text>
+  <text x="595" y="245" text-anchor="middle" class="text">TLS / Routing Layer</text>
+
+  <rect x="850" y="160" width="250" height="120" class="accent"/>
+  <text x="975" y="190" text-anchor="middle" class="label">Control Plane</text>
+  <text x="975" y="220" text-anchor="middle" class="text">kube-apiserver</text>
+  <text x="975" y="245" text-anchor="middle" class="text">scheduler / controller</text>
+
+  <rect x="130" y="360" width="250" height="120" class="node"/>
+  <text x="255" y="390" text-anchor="middle" class="label">Worker Node 1</text>
+  <text x="255" y="420" text-anchor="middle" class="text">Pods / Services</text>
+  <text x="255" y="445" text-anchor="middle" class="text">Container Runtime</text>
+
+  <rect x="470" y="360" width="250" height="120" class="node"/>
+  <text x="595" y="390" text-anchor="middle" class="label">Worker Node 2</text>
+  <text x="595" y="420" text-anchor="middle" class="text">Pods / Services</text>
+  <text x="595" y="445" text-anchor="middle" class="text">Autoscaling Ready</text>
+
+  <rect x="810" y="360" width="250" height="120" class="node"/>
+  <text x="935" y="390" text-anchor="middle" class="label">Worker Node N</text>
+  <text x="935" y="420" text-anchor="middle" class="text">Stateful / Stateless Apps</text>
+  <text x="935" y="445" text-anchor="middle" class="text">Horizontal Expansion</text>
+
+  <rect x="430" y="530" width="330" height="90" class="svc"/>
+  <text x="595" y="562" text-anchor="middle" class="label">Observability & CI/CD</text>
+  <text x="595" y="590" text-anchor="middle" class="text">GitHub Actions · Monitoring · Logs</text>
+
+  <path d="M340 220 L430 220" class="arrow"/>
+  <path d="M760 220 L850 220" class="arrow"/>
+  <path d="M975 280 L935 360" class="arrow"/>
+  <path d="M880 280 L595 360" class="arrow"/>
+  <path d="M850 280 L255 360" class="arrow"/>
+  <path d="M595 280 L595 360" class="arrow"/>
+  <path d="M595 480 L595 530" class="arrow"/>
+</svg>
