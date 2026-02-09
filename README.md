@@ -1,17 +1,21 @@
 <header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Read <https://skills.github.com/quickstart> for more information about how to build courses using this template.
-  Include a 1280×640 image, course name in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Next to "About", add description & tags; disable releases, packages, & environments.
-  Add your open source license, GitHub uses the MIT license.
--->
+**Telecom Engineer building secure AI-native cloud systems.**
 
-# Code with GitHub Copilot
+I design and ship resilient cloud platforms and AI-enabled workflows for telecom and enterprise teams.  
+From infrastructure automation to intelligent operations, I focus on solutions that are secure by design and production ready.  
+My edge is combining deep network engineering experience with practical AI and modern DevSecOps execution.
 
-_GitHub Copilot can help you code by offering autocomplete-style suggestions right in VS Code and Codespaces._
+<p align="left">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=0EA5E9&width=520&lines=Secure+Cloud+Architecture;AI-Native+Automation;Telecom+%2B+DevSecOps+Execution" alt="Typing animation" /></a>
+  <img src="https://komarev.com/ghpvc/?username=your-github-username&label=%F0%9F%91%80%20Profile%20views&color=0ea5e9&style=flat" alt="Profile views" />
+</p>
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/your-linkedin-handle"><img src="https://img.shields.io/badge/%F0%9F%94%97%20LinkedIn-Connect-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
+  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/%F0%9F%93%A7%20Email-Contact-EA4335?style=for-the-badge" alt="Email" /></a>
+  <a href="https://your-portfolio.example.com"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Portfolio-Visit-0EA5E9?style=for-the-badge" alt="Portfolio" /></a>
+</p>
 
 </header>
 
