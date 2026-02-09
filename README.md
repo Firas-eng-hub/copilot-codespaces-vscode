@@ -31,6 +31,29 @@ GitHub Copilot can help you code by offering autocomplete-style suggestions. You
 - **Prerequisites**: To use GitHub Copilot you must have an active GitHub Copilot subscription. Sign up for 30 days free [Copilot](https://github.com/settings/copilot).
 - **Timing**: This course can be completed in under an hour.
 
+## Tooling Snapshot
+
+**Languages**  
+![Python](https://img.shields.io/badge/Python-0B0F19?style=for-the-badge&logo=python&logoColor=white)
+
+**DevOps & Infra**  
+![Docker](https://img.shields.io/badge/Docker-0B0F19?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-0B0F19?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-0B0F19?style=for-the-badge&logo=ansible&logoColor=white)
+
+**Cloud & CI/CD**  
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0B0F19?style=for-the-badge&logo=githubactions&logoColor=white)
+
+**AI/Automation**  
+![n8n](https://img.shields.io/badge/n8n-0B0F19?style=for-the-badge&logo=n8n&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-0B0F19?style=for-the-badge&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-0B0F19?style=for-the-badge&logo=googlegemini&logoColor=white)
+
+**Security/Networking**  
+![GitHub Advanced Security](https://img.shields.io/badge/GitHub%20Advanced%20Security-0B0F19?style=for-the-badge&logo=github&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-0B0F19?style=for-the-badge&logo=cloudflare&logoColor=white)
+
+
 ### How to start this course
 
 1. Scroll to the top of the page and click the down arrow next to the Fork button. Then click 'Create a new fork' to fork this repository.
