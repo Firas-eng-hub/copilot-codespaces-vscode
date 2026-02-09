@@ -31,6 +31,15 @@ GitHub Copilot can help you code by offering autocomplete-style suggestions. You
 - **Prerequisites**: To use GitHub Copilot you must have an active GitHub Copilot subscription. Sign up for 30 days free [Copilot](https://github.com/settings/copilot).
 - **Timing**: This course can be completed in under an hour.
 
+## About Me
+
+* Deployed and scaled 12-node Kubernetes clusters with automated provisioning through Kubespray and Ansible.
+* Built AI workflow agents (n8n + LLM APIs) to automate email and WhatsApp operations, reducing manual follow-ups by 40%.
+* Implemented CI/CD pipelines across GitHub Actions and Dockerized services to cut release time from hours to under 20 minutes.
+* Designed cloud monitoring and alerting stacks with Prometheus and Grafana, improving incident response time by 35%.
+* Delivered infrastructure-as-code environments with Terraform modules, enabling repeatable multi-environment provisioning for product teams.
+* I recharge by gaming and exploring co-op strategy titles, which keeps my problem-solving mindset sharp.
+
 ### How to start this course
 
 1. Scroll to the top of the page and click the down arrow next to the Fork button. Then click 'Create a new fork' to fork this repository.
